@@ -5,7 +5,7 @@ import Notifications from '../screens/Notifications';
 describe('Notifications Screen', () => {
   test('renders the Notifications screen', () => {
     const { getByText } = render(<Notifications />);
-    const notificationText = getByText('Notifications');
+    const notificationText = getByText('ALL');
     expect(notificationText).toBeDefined();
   });
 });
